@@ -1,0 +1,44 @@
+{
+	"title": "Curabitur ut augue nisi.",
+	"description": "Mauris eleifend aliquamen pharetra. Praesent non augue ac massa molestie er imperdiet ut sed mauris. Cras vel lacinia et magna. Fusce lobortis facilisis sem, quis mattis arcu.",
+	"headLists": [
+		{
+			"name": "partners",
+			"link": "#"
+		},
+		{
+			"name": "nieuws",
+			"link": "#"
+		},
+		{
+			"name": "vacatures",
+			"link": "#"
+		},
+		{
+			"name": "contact",
+			"link": "#"
+		}
+	],
+	"headNav": [
+		{
+			"active": "home",
+			"link": "#"
+		},
+		{
+			"name": "over ons",
+			"link": "#"
+		},
+		{
+			"name": "cases",
+			"link": "#"
+		},
+		{
+			"name": "mensen",
+			"link": "#"
+		},
+		{
+			"name": "blog",
+			"link": "#"
+		}
+ 	]
+}

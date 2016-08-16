@@ -1,0 +1,17 @@
+.head-wrapper
+	.col-xs-12
+		ul.list-inline.head-list
+			each headList in site.data.head.headLists
+				li.list-inline-item
+					a.headList(href="#{headList.link}") #{headList.name}
+	.col-xs-12.col-md-4
+		img(src='/images/images/yz_webpage_03.png')
+	.col-xs-12.col-md-8
+		ul.list-inline.head-nav
+			each headnav in site.data.head.headNav
+				li.list-inline-item
+					a.active(href="#{headnav.link}") #{headnav.active}
+					a(href="#{headnav.link}") #{headnav.name}
+	.info.col-xs-12.col-md-8
+		h1 #{site.data.head.title} 
+		h1.style #{site.data.head.description}

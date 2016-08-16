@@ -4,12 +4,8 @@ include _modules/link/link
 
 block content
   .container
-    .yeogurt-info
-      h1 Welcome to Yeogurt!
-      p.
-        Take a look at the
-        #[+link({text: 'documentation'})(href='https://github.com/larsonjj/generator-yeogurt#yeogurt-generator---')]
-        and start mixing up something awesome.
-      p
-        img.logo(src="images/yeogurt-swirl.png", width="75px")
-  code.version v1.5.3
+    include _modules/index/head
+  .comntainer-nopad
+    include _modules/index/parallaxCover
+  .container
+    include _modules/index/form
