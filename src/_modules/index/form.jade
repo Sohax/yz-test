@@ -1,34 +1,42 @@
-div.col-xs-6
+.form.col-xs-12.col-md-6
   .col-xs-12
     h1 uw gegevens
   form
   .form-group
-    .col-xs-10
+    .col-xs-12
       label(for='inputVoornaam') Voornaam<span>*</span> 
       input#inputVoornaam.form-control(type='name', placeholder='')
-    .col-xs-4
+    .col-xs-5.col-md-4
       label(for='inputTussenvoegsel') Tussenvoegsel(s)
       input#inputTussenvoegsel.form-control(type='name', placeholder='')
-    .col-xs-6
+    .col-xs-7.col-md-8
       label(for='inputAchternaam') Achternaam<span>*</span>
       input#inputAchternaam.form-control(type='name', placeholder='')
     .col-xs-12.checkbox
       label
       input(type='checkbox')
       |  Ik ontvang graag de Yourzine nieuwsbrief
-    .col-xs-10
-      .col-xs-12
-        label(for='inputEmail') Email address
-        input#inputEmail.form-control(type='email', aria-describedby='emailHelp', placeholder='')
-div.col-xs-6
+    .col-xs-12.none
+      .col-xs-12.block
+        .col-xs-10.offset-xs-1
+          label(for='inputEmail') Email address<span>*</span>     
+          input#inputEmail.form-control(type='email', aria-describedby='emailHelp', placeholder='')
+.form.col-xs-12.col-md-6
   .col-xs-12
     h1 datum en tijdstip
+    br
     p Al onze inspiratiesessies vinden plaats in de ochtend, tussen 10:00 en 13:00, lunch en koffie worden door ons verzorgd.
-
+    br
     p.strong Ik laat mij graag inspireren op:
-
-
-
-
-
-button.btn.btn-primary(type='submit') Verzenden
+  .col-xs-12.col-md-6
+    p Optie 1<span>*</span>
+    label(for='opt1')
+    input#opt1.form-control(type='date')
+  .col-xs-12.col-md-6
+    p Optie 2<span>*</span>
+    label(for='opt2')
+    input#opt2.form-control(type='date')
+  .col-xs-12
+    button.btn.btn-primary(type='submit') Verzenden
+  .col-xs-12
+    p velden met een <span>*</span> zijn verplicht

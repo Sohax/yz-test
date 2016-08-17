@@ -1,7 +1,16 @@
 .no-gutter-no-margin {
     margin-left: 0;
     margin-right: 0;
-	.img-responsive {
-		width: 100%;
+	img {
+	    zoom: 3;  //increase if you have very small images
+
+	    display: block;
+	    margin: auto;
+
+	    height: auto;
+	    max-height: 100%;
+
+	    width: auto;
+	    max-width: 100%;
 	}
 }

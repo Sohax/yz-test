@@ -1,0 +1,39 @@
+.form {
+	margin-top: 3rem;
+	background-color: #e5e5e5;
+	border-left: 2px solid #fff;
+	min-height: 480px;
+	.form-group {
+		padding: 0;
+		margin: 0;
+	}
+	div {
+		margin-top: 1rem;
+	};
+	span {
+		color: #ee1e51;
+	};
+	.block{
+		background-color: #ccc;
+		border-radius: 5px;
+		padding: 1rem 0;
+		padding-bottom: 2rem;
+	};
+	.none {
+		margin: 0 0 1rem 0;
+		padding-bottom: 1rem;
+	};
+	.btn-primary {
+		background-color: #ee1e51;
+		border-color: #ee1e51;
+	};
+	.btn-primary:hover {
+		background-color: #BE1841;
+	};
+	p {
+		margin: 0;
+	};
+	.strong {
+		font-weight: bold;
+	}
+}
