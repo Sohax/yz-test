@@ -1,0 +1,30 @@
+.footer {
+  	// min-height: 200px;
+	margin-top: 3rem;
+	background-color: black;
+	img {
+		width: 2rem;
+		filter: invert(100%);
+		margin: 2rem 1rem 3rem 0;
+	};
+	ul {
+		margin: 0;
+	};
+	p {
+		margin-bottom: 2rem;
+	};
+	.second-list {
+		a{
+			color: white;
+			text-decoration: underline;
+		};
+	};
+	p {
+		color: #fff;
+	};
+	.lectric a {
+		color: white;
+		text-decoration: underline;
+		text-transform: uppercase;
+	}
+}
